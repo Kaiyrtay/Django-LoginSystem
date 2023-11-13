@@ -13,13 +13,17 @@ This project implements a simple login system using Django, a high-level Python 
 
 ## Prerequisites
 
-Make sure you have the following installed:
+Make sure you have the Python installed:
 
 - Python (version 3.x recommended)
-- Django
+
+## Note:
+In the command line, type `python`. If Python is installed, you should see a message like “Python 3.x.x” followed by the Python prompt, which looks like this “>>>”. Note that “3.x.x” represents the version number of Python
 
 ```bash
-pip install django
+python
+# OR
+python --version
 ```
 
 # Demo:
@@ -40,6 +44,10 @@ pip install django
 
 ![](demo/profile.png)
 
+## Passwor reset
+
+![](demo/password_reset.png)
+
 ## Password-change
 
 ![](demo/password_change.png)
@@ -52,7 +60,7 @@ pip install django
 
 ```sh
 git clone https://github.com/Kaiyrtay/Django-LoginSystem.git
-cd LoginSystem
+cd Django-LoginSystem
 ```
 
 **2.Install Requirements**
@@ -64,7 +72,7 @@ pip install -r requirements.txt
 **3.Create .env**
 
 ```sh
-cd ~/LoginSystem/mysite
+cd ~/Django-LoginSystem/mysite
 touch .env
 ```
 
